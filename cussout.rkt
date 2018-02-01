@@ -1,12 +1,13 @@
 #lang racket
 
-(require "savingthrow.rkt")
+(require "rng.rkt")
 
 ;; If engagetroll throw won, determine whether to cuss em out.
 
 (define cusslevel 12)
 
 (define (cussout)
-  (if (string=? "WIN" (savingthrow cusslevel)) "Cuss em" "Be civil"))
+  (define result (rolld20))
+  (if (> result cusslevel) "Cuss em out" "Be civil"))
 
 (cussout)
