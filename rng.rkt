@@ -1,6 +1,5 @@
 #lang racket
 
-;; Make a coin, make a d6. That's good enough for now.
 (provide coinflip rolld6)
 
 (define (coinflip)
