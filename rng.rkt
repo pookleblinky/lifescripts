@@ -8,8 +8,3 @@
 
 (define (diceroll)
   (random 1 6))
-
-;; Nd6
-;; TODO: generalize to d20 etc
-(define (die n)
-  (* n (diceroll)))
