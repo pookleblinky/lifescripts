@@ -8,7 +8,7 @@
 
 (define (engage)
   (define result (savingthrow fuckslevel))
-  (printf "You needed to roll a ~a to respond. You ~a!" fuckslevel result))
+    (if (false? result) "Ignore" "Engage"))
 
 (engage)
 
