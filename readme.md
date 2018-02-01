@@ -21,3 +21,7 @@ I want to add more, hence this project.
 
 I want to automate this stuff and make it easy to extend flipism to other parts
 of my life.
+
+What I've been doing is recording the day's results of the coinflip and dice roll in a
+pinned Keep note. Note to self: check if Keep has an API that I can use to send
+stuff to from racket.
