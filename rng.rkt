@@ -1,6 +1,6 @@
 #lang racket
 
-(provide coinflip rolld6)
+(provide coinflip rolld6 roll2d6 rolld20)
 
 (define (coinflip)
   (if (zero? (random 2)) "HEADS" "TAILS"))
