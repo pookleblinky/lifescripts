@@ -10,4 +10,4 @@
   (define result (savingthrow cusslevel))
   (if (false? result) "Be civil" "Cuss em out"))
 
-(cussout)
+(print (cussout))
