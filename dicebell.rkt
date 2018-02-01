@@ -12,7 +12,7 @@
 ;; TODO: Make multipler toggle based on day's coinflip
 (define multiplier 40)
 
-(define swings (* multiplier (diceroll)))
+(define swings (* multiplier (rolld6)))
 
 (define (doswings)
     (printf "Do ~a swings today~n" swings))
