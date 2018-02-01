@@ -7,4 +7,5 @@
   (if (zero? (random 2)) "HEADS" "TAILS"))
 
 (define (diceroll)
-  (random 1 6))
+  (random 1 7))
+
