@@ -10,7 +10,7 @@
   (random 1 7))
 
 (define (roll2d6)
-  (random (1 13)))
+  (random 1 13))
 
 (define (rolld20)
-  (random (1 21)))
+  (random 1 21))
