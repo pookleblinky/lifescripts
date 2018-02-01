@@ -10,4 +10,4 @@
   (define result (savingthrow fuckslevel))
     (if (false? result) "Ignore" "Engage"))
 
-(print (engage))
+(printf "~a~n" (engage))
