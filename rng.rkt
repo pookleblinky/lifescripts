@@ -1,6 +1,6 @@
 #lang racket
 
-;; Make a coin, make a bunch of d6. That's good enough for now.
+;; Make a coin, make a d6. That's good enough for now.
 (provide coinflip diceroll)
 
 (define (coinflip)
@@ -8,4 +8,3 @@
 
 (define (diceroll)
   (random 1 7))
-
