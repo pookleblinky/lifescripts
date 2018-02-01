@@ -1,15 +1,17 @@
-2018-1-30
 So I have been doing stochastic intermittent fasting for a while, and recently
 started doing stochastic cardio.
 
 Coinfasting: flip a coin in the morning. Heads eat, tails fast. Over 7 days the
 expected value is 3.5, identical to a scheduled ADF. The randomness makes it
-easier to calibrate on the right number of calories.
+easier to calibrate on the right number of calories: you can't just binge
+because the next few days may also be heads, and you can't do too much
+restriction because the next few days may also be tails.
 
 Coin cardio: 20 minutes cycling every morning. Heads days, an extra 30 minutes
 cycling in the afternoon. 140 minutes baseline, which is the minimum suggested
 dose, averages to 245 minutes, maximum 350 minutes. 450 minutes is the maximum
-suggested dose of cardio beyond which diminishing returns kick in.
+suggested dose of cardio beyond which diminishing returns kick in
+(https://well.blogs.nytimes.com/2015/04/15/the-right-dose-of-exercise-for-a-longer-life/).
 
 Dice Kettlebell: roll 2d6, multiply by a number. Do that many swings. Can attach
 it to the above coin results, say tails = 10, heads = 25.
