@@ -10,7 +10,7 @@
 
 ;; I want to be able to easily change the meaning, so that say at maintenance
 ;heads becomes tdee+15%, etc.
-(define rules "Heads: feast, tails fast.")
+(define rules "Heads feast, tails fast.")
 
 (define (feastp)
     (printf "~a You got: ~a ~n" rules (coinflip)))
