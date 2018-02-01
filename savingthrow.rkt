@@ -6,4 +6,4 @@
 
 (define (savingthrow numbertobeat)
   (define result (rolld20))
-  (if (> result numbertobeat) "WIN" "LOSE"))
+  (> result numbertobeat))
