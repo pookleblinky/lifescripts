@@ -13,8 +13,7 @@ dose, averages to 245 minutes, maximum 350 minutes. 450 minutes is the maximum
 suggested dose of cardio beyond which diminishing returns kick in
 (https://well.blogs.nytimes.com/2015/04/15/the-right-dose-of-exercise-for-a-longer-life/).
 
-Dice Kettlebell: roll 2d6, multiply by a number. Do that many swings. Can attach
-it to the above coin results, say tails = 10, heads = 25.
+Dice Kettlebell: What I had been doing was: roll 2d6, multiply by a number. Do that many swings. I decided to simplify this a bit by just increasing the multiplier and rolling one die. 
 
 Basically: I am enjoying the hell out of adding all this randomness to my life.
 I want to add more, hence this project.
