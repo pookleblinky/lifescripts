@@ -8,6 +8,6 @@
 
 (define (drink?)
   (define result (savingthrow thirst))
-  (if (false? result) "Guzzle a cupful" "You're good."))
+  (if (equal? #t result) "Guzzle a cupful" "You're good"))
 
 (printf "~a~n" (drink?))
