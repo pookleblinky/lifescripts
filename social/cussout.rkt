@@ -1,6 +1,6 @@
 #lang racket
 
-(require "machinery/savingthrow.rkt")
+(require "../machinery/savingthrow.rkt")
 
 ;; If engagetroll throw won, determine whether to cuss em out.
 
@@ -9,3 +9,5 @@
 (define (cussout)
   (define result (savingthrow cusslevel))
   (if (false? result) "Be civil" "Cuss em out"))
+
+(printf "~a~n" (cussout))
