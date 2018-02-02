@@ -2,4 +2,4 @@
 
 ;; The various scripts all end up invoked here.
 
-(require "coinfast.rkt" "dicebell.rkt")
+(require "fitness/coinfast.rkt" "fitness/dicebell.rkt")
