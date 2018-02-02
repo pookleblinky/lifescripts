@@ -8,6 +8,6 @@
 
 (define (engage)
   (define result (savingthrow fuckslevel))
-    (if (false? result) "Ignore" "Engage"))
+    (if (equal? #t result) "Engage" "Ignore"))
 
 (printf "~a~n" (engage))
