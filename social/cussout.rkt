@@ -8,6 +8,6 @@
 
 (define (cussout)
   (define result (savingthrow cusslevel))
-  (if (false? result) "Be civil" "Cuss em out"))
+  (if (equal? #t result) "Cuss em out" "Be civil"))
 
 (printf "~a~n" (cussout))
