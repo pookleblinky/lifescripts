@@ -5,7 +5,7 @@
 ;swings, an average of 140, and a max of 240. Go up to 50 and the max hits
 ;300.
 
-(require "rng.rkt")
+(require "machinery/rng.rkt")
 
 (provide doswings)
 

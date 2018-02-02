@@ -1,6 +1,6 @@
 #lang racket
 
-(require "savingthrow.rkt")
+(require "machinery/savingthrow.rkt")
 
 ;; If engagetroll throw won, determine whether to cuss em out.
 

@@ -9,3 +9,5 @@ scripts that solve the packing problem by learning the difficulty of
 various tasks in the manner of Anki or Mnemosyne spaced repetition
 flashcards and then mapping them to a hidden markov state of
 general energy levels. Over time tasks get done, without overexerting oneself.
+
+Organize scripts: machinery, social, fitness, etc.

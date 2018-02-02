@@ -4,7 +4,7 @@
 ;; Each morning, flip a coin. Heads, eat. Tails, fast.
 ;; The EV of heads over 7 days is 3.5, same as scheduled ADF.
 
-(require "rng.rkt")
+(require "machinery/rng.rkt")
 
 (provide feastp)
 

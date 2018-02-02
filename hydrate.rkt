@@ -1,6 +1,6 @@
 #lang racket
 
-(require "savingthrow.rkt")
+(require "machinery/savingthrow.rkt")
 
 ;; Add this as a githook or something
 
