@@ -18,4 +18,5 @@
     (printf "Do ~a swings today~n" swings))
 
 
+(doswings)
 ;; TODO: Save to ring buffer of last 7 days. Decouple the dice roll.

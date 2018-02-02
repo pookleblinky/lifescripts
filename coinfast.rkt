@@ -15,5 +15,6 @@
 (define (feastp)
     (printf "~a You got: ~a ~n" rules (coinflip)))
 
+(feastp)
 ;; TODO: save to a ring buffer of last 7 days
 
