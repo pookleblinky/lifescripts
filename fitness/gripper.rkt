@@ -13,13 +13,9 @@
 (define (reps)
   (roll2d6))
 
-(define (resistance)
-  (define result (roll2d6))
-  (if (> result laziness) "low resistance" "high resistance"))
-
 (define (crush)
   (if (equal? #t (gripper?)) 
-  (printf "Do ~a reps at ~a~n" (reps) (resistance))
+  (printf "Do ~a reps~n" (reps))
   (printf "Relax")))
 
 (crush)
