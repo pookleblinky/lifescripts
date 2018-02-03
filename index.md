@@ -3,6 +3,7 @@ So far:
 Top level:
 - todayscript.rkt Determine coinfast and kettlebell
 - codescript.rkt Determine coding session
+- bored.rkt Randomly assign something to do
 
 Social
 - attention.rkt Randomly choose one issue/event to focus on
