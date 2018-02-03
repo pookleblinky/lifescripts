@@ -5,6 +5,8 @@
 (provide crush)
 
 ;; Idea: Roll to see whether to do a set of grippers, and which one to do.
+;; Actually, why not generalize this. A script to assign N reps in M activities:
+;pullups, swings, gripper, band pull aparts, etc.
 
 (define laziness 7)
 
