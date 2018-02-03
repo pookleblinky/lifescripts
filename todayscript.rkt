@@ -5,3 +5,4 @@
 (require "fitness/coinfast.rkt" "fitness/dicebell.rkt")
 
 (feast?)
+(doswings)
