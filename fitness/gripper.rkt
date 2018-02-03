@@ -2,6 +2,8 @@
 
 (require "../machinery/rng.rkt" "../machinery/savingthrow.rkt")
 
+(provide crush)
+
 ;; Idea: Roll to see whether to do a set of grippers, and which one to do.
 
 (define laziness 7)

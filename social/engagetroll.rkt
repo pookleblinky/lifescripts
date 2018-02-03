@@ -4,10 +4,12 @@
 
 (require "../machinery/savingthrow.rkt")
 
+(provide engage?)
+
 (define fuckslevel 4)
 
-(define (engage)
+(define (engage?)
   (define result (savingthrow fuckslevel))
     (if (equal? #f result) "Engage" "Ignore"))
 
-(printf "~a~n" (engage))
+(printf "~a~n" (engage?))
