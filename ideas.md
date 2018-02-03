@@ -11,3 +11,11 @@ flashcards and then mapping them to a hidden markov state of
 general energy levels. Over time tasks get done, without overexerting oneself.
 
 Idea: add gripper script to determine whether to do a set of gripper crushes.
+
+Idea: Stochastic distribution of attention.
+https://twitter.com/pookleblinky/status/959488083363270657
+
+Basically: give yourself permission via a diceroll to not feel it necessary to
+weigh in on everything at once. On average, others are saying what you want to
+say, and over time you will get the chance to join them. Just not today, just
+not about everything.
