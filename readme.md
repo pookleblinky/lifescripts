@@ -24,3 +24,5 @@ of my life.
 What I've been doing is recording the day's results of the coinflip and dice roll in a
 pinned Keep note. Note to self: check if Keep has an API that I can use to send
 stuff to from racket.
+
+Check out index.md to see what I'm already working on.
