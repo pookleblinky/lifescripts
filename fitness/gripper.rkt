@@ -19,5 +19,3 @@
   (if (equal? #t (gripper?)) 
   (printf "Do ~a reps~n" (reps))
   (printf "Relax~n")))
-
-(crush)
