@@ -10,8 +10,6 @@
 
 (define activities
   (list
-    '(drink?)
-    '(crush)
     "Do 20 kettlebell swings"
     "Do 10 pullups"
     "Do 20 band pull aparts"
@@ -21,7 +19,7 @@
 (define (bored)
   (define result (random (length activities)))
   ; Don't like this kludge
-  (printf "~a~n" (eval (list-ref activities result))))
+  (printf "~a~n" (list-ref activities result)))
 
 (bored)
 ;; TODO: Make it easy to extend to such as a round of swings, pullups, etc
