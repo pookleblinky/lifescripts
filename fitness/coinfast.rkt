@@ -6,15 +6,15 @@
 
 (require "../machinery/rng.rkt")
 
-(provide feastp)
+(provide feast?)
 
 ;; I want to be able to easily change the meaning, so that say at maintenance
 ;heads becomes tdee+15%, etc.
 (define rules "Heads feast, tails fast.")
 
-(define (feastp)
+(define (feast?)
     (printf "~a You got: ~a ~n" rules (coinflip)))
 
-(feastp)
+(feast?)
 ;; TODO: save to a ring buffer of last 7 days
 
