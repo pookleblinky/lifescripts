@@ -12,6 +12,6 @@ Fitness
 - hydrate.rkt Roll dice to determine whether to drink some water
 
 Coding
--
+- refactor.rkt Roll dice to decide whether to refactor
 -
 -
