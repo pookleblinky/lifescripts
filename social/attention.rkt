@@ -7,6 +7,7 @@
 
 (provide boost-topic)
 
+;; Now the hard part: seeding the topics list
 (define topics
   (list
     'foo
