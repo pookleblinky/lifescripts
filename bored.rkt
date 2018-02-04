@@ -1,5 +1,7 @@
 #lang racket
 
+(require "machinery/rng.rkt")
+
 (provide bored)
 
 ;; TODO: Have hydrate/gripper/etc pipe into activities
@@ -27,9 +29,8 @@
     "Take a nice hot shower"))
 
 (define (bored)
-  (define result (random (length activities)))
-  ; Don't like this kludge
-  (printf "~a~n" (list-ref activities result)))
+  (define activity (randomchoice activities))
+  (printf "~a~n" activity))
 
 (bored)
 ;; TODO: Make it easy to extend to such as a round of swings, pullups, etc
