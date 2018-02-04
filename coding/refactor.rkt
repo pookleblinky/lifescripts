@@ -16,7 +16,7 @@
   (equal? #t result))
 
 (define (dotask)
-  (if (equal? #t (refactor?))
+  (if (refactor?)
     (printf "Clean up some code.~n")
     (printf "Write some new code.~n")))
 
