@@ -13,6 +13,7 @@
     "Do 20 kettlebell swings"
     "Do 10 pullups"
     "Do 20 band pull aparts"
+    "Do 10 goblet squats"
     "Make a cup of coffee"
     "Clean something"
     "Take a nice hot shower"))
