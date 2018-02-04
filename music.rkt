@@ -28,5 +28,3 @@
 (define (listen)
   (define genre (random (length genres)))
   (printf "Today's genre: ~a~n" (list-ref genres genre)))
-
-(listen)
