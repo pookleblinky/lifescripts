@@ -14,7 +14,8 @@
     "Do 10 pullups"
     "Do 20 band pull aparts"
     "Make a cup of coffee"
-    "Check twitter"))
+    "Clean something"
+    "Take a nice hot shower"))
 
 (define (bored)
   (define result (random (length activities)))
