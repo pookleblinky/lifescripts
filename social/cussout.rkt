@@ -4,8 +4,6 @@
 
 (provide cussout?)
 
-;; If engagetroll throw won, determine whether to cuss em out.
-
 (define cusslevel 12)
 
 (define (cussout?)
