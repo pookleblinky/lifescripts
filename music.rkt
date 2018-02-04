@@ -2,6 +2,8 @@
 
 ;; Idea: randomly determine the music of the day
 
+(require "machinery/rng.rkt")
+
 (provide listen)
 
 ;; These are all valid genres.
@@ -41,5 +43,7 @@
     'wutang))
 
 (define (listen)
-  (define genre (random (length genres)))
-  (printf "Today's genre: ~a~n" (list-ref genres genre)))
+  (define genre (randomchoice genres))
+  (printf "Today's genre: ~a~n" genre))
+
+(listen)
