@@ -22,6 +22,7 @@
     "Play some guitar"
     "Play some bongo"
     "Pet a cat"
+    "Take a selfie"
     "Do some gtypist exercises"
     "Study some code"
     "Go down a wikipedia rabbit hole"
