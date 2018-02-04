@@ -1,9 +1,5 @@
 #lang racket
 
-(require "machinery/rng.rkt"
-         "fitness/hydrate.rkt"
-         "fitness/gripper.rkt")
-
 (provide bored)
 
 ;; TODO: Have hydrate/gripper/etc pipe into activities
