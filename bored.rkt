@@ -15,7 +15,19 @@
     "Do 20 band pull aparts"
     "Do 10 goblet squats"
     "Make a cup of coffee"
+    "Make a cup of tea"
+    "Look up a good recipe"
+    "Put on some different music"
+    "Read a book"
+    "Play some guitar"
+    "Play some bongo"
+    "Pet a cat"
+    "Do some gtypist exercises"
+    "Study some code"
+    "Go down a wikipedia rabbit hole"
+    "Get trapped in TVTropes"
     "Clean something"
+    "Summon an elder god"
     "Take a nice hot shower"))
 
 (define (bored)
