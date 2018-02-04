@@ -20,4 +20,3 @@
     (printf "Clean up some code.~n")
     (printf "Write some new code.~n")))
 
-(dotask)
