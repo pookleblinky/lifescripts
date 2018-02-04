@@ -10,6 +10,6 @@
 
 (define (cussout?)
   (define result (savingthrow cusslevel))
-  (if (equal? #f result) "Cuss em out" "Be civil"))
+  (if (not result) "Cuss em out" "Be civil"))
 
 (printf "~a~n" (cussout?))
