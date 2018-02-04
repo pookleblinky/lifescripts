@@ -45,5 +45,3 @@
 (define (listen)
   (define genre (randomchoice genres))
   (printf "Today's genre: ~a~n" genre))
-
-(listen)

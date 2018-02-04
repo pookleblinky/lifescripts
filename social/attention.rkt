@@ -17,4 +17,3 @@
   (define topic (randomchoice topics))
   (printf "Today's topic to boost: ~a~n" topic))
 
-(boost-topic)
