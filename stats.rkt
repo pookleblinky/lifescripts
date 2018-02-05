@@ -47,8 +47,6 @@
 
 ;; Reverse engineering fucks and profanity as secondary attributes
 ;; It just has to sound somewhat plausible, and be close to current value
-
-;; TODO:fix these to be constrained in range of d20
 (define smarts (+ intelligence education))
 (define fucks (ceiling (/ sanity smarts)))
 (define profanity (* 2 education))
