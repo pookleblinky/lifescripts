@@ -20,12 +20,6 @@
          laziness)
 
 
-;; Existing stats
-; fucks 4
-; profanity 12
-; thirst 10
-; laziness 7
-
 ;; Cardinal stats (CoC)
 
 ; Primary
@@ -45,8 +39,7 @@
 (define hitpoints (ceiling (/ (+ size constitution) 2)))
 (define sanity (* 5 power))
 
-;; Reverse engineering fucks and profanity as secondary attributes
-;; It just has to sound somewhat plausible, and be close to current value
+; Tertiary? stats
 (define smarts (+ intelligence education))
 (define fucks (* 5 (ceiling (/ sanity smarts))))
 (define profanity (* 10 education))
