@@ -9,6 +9,6 @@
 
 (define (engage?)
   (define result (skillcheck fucks))
-    (if (not result) "Engage" "Ignore"))
+    (if (equal? #t result) "Engage" "Ignore"))
 
 (printf "~a~n" (engage?))
