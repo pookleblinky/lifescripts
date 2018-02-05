@@ -7,6 +7,6 @@
 
 (define (drink?)
   (define result (skillcheck thirst))
-  (if (not result)
+  (if (equal? #t result)
     (printf "Guzzle a cupful.~n")
     (printf "You're good.~n")))
