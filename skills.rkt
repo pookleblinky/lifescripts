@@ -8,3 +8,6 @@
 
 (require "stats.rkt")
 
+(define points (* 20 education))
+
+(define basechance 15) ; A decent base chance
