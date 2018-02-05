@@ -1,10 +1,9 @@
 #lang racket
 
-(require "../machinery/savingthrow.rkt")
+(require "../machinery/savingthrow.rkt"
+         "../stats.rkt")
 
 (provide cussout?)
-
-(define profanity 12)
 
 (define (cussout?)
   (define result (savingthrow profanity))
