@@ -16,5 +16,5 @@
     (define result (skillcheck sanity))
     result)
   (if (equal? #t (refactor?))
-    (printf "Write new code")
-    (printf "Clean up some code")))
+    (printf "Clean up some code~n")
+    (printf "Write new code~n")))
