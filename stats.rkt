@@ -15,11 +15,13 @@
          sanity
          smarts
          fucks
-         profanity)
+         profanity
+         thirst)
 
 ;; Existing stats
 ; fucks 4
 ; profanity 12
+; thirst 10
 
 ;; Cardinal stats (CoC)
 
@@ -47,3 +49,4 @@
 (define smarts (+ intelligence education))
 (define fucks (ceiling (/ sanity smarts)))
 (define profanity (* 2 education))
+(define thirst (/ constitution 2))
