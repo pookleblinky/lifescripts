@@ -15,7 +15,7 @@
 
 (define (refactor?)
  (define result (skillcheck fucks))
-  (equal? #t result))
+ (result))
 
 (define (dotask)
   (if (refactor?)
