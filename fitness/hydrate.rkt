@@ -10,6 +10,3 @@
   (if (not result)
     (printf "Guzzle a cupful.~n")
     (printf "You're good.~n")))
-
-(drink?)
-
