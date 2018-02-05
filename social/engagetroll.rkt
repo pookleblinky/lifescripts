@@ -2,11 +2,10 @@
 
 ;; Roll a saving throw to determine whether to respond to an argument.
 
-(require "../machinery/savingthrow.rkt")
+(require "../machinery/savingthrow.rkt"
+         "../stats.rkt")
 
 (provide engage?)
-
-(define fucks 4)
 
 (define (engage?)
   (define result (savingthrow fucks))

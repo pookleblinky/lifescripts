@@ -1,5 +1,22 @@
 #lang racket
 
+(provide strength
+         constitution
+         dexterity
+         size
+         intelligence
+         power
+         appearance
+         education
+         idea
+         knowledge
+         luck
+         hitpoints
+         sanity
+         smarts
+         fucks
+         profanity)
+
 ;; Existing stats
 ; fucks 4
 ; profanity 12
