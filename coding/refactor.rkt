@@ -5,14 +5,16 @@
 ;; productivity just crashes because I'm torn between trying to do both at once,
 ;; and I end up getting absolutely nothing done.
 
-(require "../machinery/rng.rkt" "../machinery/savingthrow.rkt")
+(require "../machinery/rng.rkt"
+         "../machinery/skillcheck.rkt"
+         "../stats.rkt")
 
 (provide dotask)
 
-(define neatness 7)
+(define fucks 7)
 
 (define (refactor?)
-  (define result (savingthrow neatness))
+ (define result (skillcheck fucks))
   (equal? #t result))
 
 (define (dotask)
