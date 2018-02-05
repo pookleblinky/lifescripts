@@ -16,12 +16,15 @@
          smarts
          fucks
          profanity
-         thirst)
+         thirst
+         laziness)
+
 
 ;; Existing stats
 ; fucks 4
 ; profanity 12
 ; thirst 10
+; laziness 7
 
 ;; Cardinal stats (CoC)
 
@@ -50,3 +53,4 @@
 (define fucks (ceiling (/ sanity smarts)))
 (define profanity (* 2 education))
 (define thirst hitpoints)
+(define laziness (ceiling (/ strength 2)))
