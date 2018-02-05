@@ -12,6 +12,6 @@
 (provide savingthrow)
 
 (define (savingthrow numbertobeat)
-  (define result (rolld20))
-  (> result numbertobeat))
+  (define result (rolld100))
+  (< result numbertobeat))
 
