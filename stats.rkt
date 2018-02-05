@@ -49,6 +49,6 @@
 ;; It just has to sound somewhat plausible, and be close to current value
 (define smarts (+ intelligence education))
 (define fucks (* 5 (ceiling (/ sanity smarts))))
-(define profanity (* 2 education))
+(define profanity (* 10 education))
 (define thirst (* 5 hitpoints))
 (define laziness (ceiling (/ strength 2)))
