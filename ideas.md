@@ -21,3 +21,6 @@ say, and over time you will get the chance to join them. Just not today, just
 not about everything. Maybe a personal killfile for issues/events that gives you
 permission to focus and not feel obligated to be torn apart by competing streams
 of dystopia.
+
+Idea: extract thirst/fuckslevel etc into a literal statsheet that those scripts
+look at. Change em all in one spot.

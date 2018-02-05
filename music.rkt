@@ -16,6 +16,7 @@
     'bluegrass
     'boardsofcanada
     'cake
+    'chaos
     'chicagoblues
     'classical
     'deltablues
