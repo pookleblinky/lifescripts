@@ -6,10 +6,10 @@
 
 (provide engage?)
 
-(define fuckslevel 4)
+(define fucks 4)
 
 (define (engage?)
-  (define result (savingthrow fuckslevel))
+  (define result (savingthrow fucks))
     (if (not result) "Engage" "Ignore"))
 
 (printf "~a~n" (engage?))
