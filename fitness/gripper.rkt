@@ -1,6 +1,8 @@
 #lang racket
 
-(require "../machinery/rng.rkt" "../machinery/savingthrow.rkt")
+(require "../machinery/rng.rkt"
+         "../machinery/savingthrow.rkt"
+         "../stats.rkt")
 
 (provide crush)
 
