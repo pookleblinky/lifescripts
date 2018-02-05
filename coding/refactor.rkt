@@ -11,14 +11,10 @@
 
 (provide dotask)
 
-(define fucks 7)
-
-(define (refactor?)
- (define result (skillcheck fucks))
- (result))
-
 (define (dotask)
-  (if (refactor?)
-    (printf "Clean up some code.~n")
-    (printf "Write some new code.~n")))
-
+  (define (refactor?)
+    (define result (skillcheck sanity))
+    result)
+  (if (equal? #t (refactor?))
+    (printf "Write new code")
+    (printf "Clean up some code")))
