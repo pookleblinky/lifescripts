@@ -51,4 +51,4 @@
 (define fucks (* 5 (ceiling (/ sanity smarts))))
 (define profanity (* 10 education))
 (define thirst (* 5 hitpoints))
-(define laziness (ceiling (/ strength 2)))
+(define laziness (* 10 (ceiling (/ strength 2))))
