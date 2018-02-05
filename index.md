@@ -6,6 +6,7 @@ Top level:
 - music.rkt Randomly decide the day's music genre
 - todayscript.rkt Determine coinfast and kettlebell
 - stats.rkt A literal statsheet using Call of Cthulhu attributes
+- skills.rkt A literal goddamn skill sheet.
 
 Social
 - attention.rkt Randomly choose one issue/event to focus on
