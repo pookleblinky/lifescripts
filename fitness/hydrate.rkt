@@ -1,12 +1,9 @@
 #lang racket
 
-(require "../machinery/savingthrow.rkt")
+(require "../machinery/savingthrow.rkt"
+         "../stats.rkt")
 
 (provide drink?)
-
-;; Add this as a githook or something
-
-(define thirst 10)
 
 (define (drink?)
   (define result (savingthrow thirst))
