@@ -2,13 +2,13 @@
 
 ;; Roll a saving throw to determine whether to respond to an argument.
 
-(require "../machinery/savingthrow.rkt"
+(require "../machinery/skillcheck.rkt"
          "../stats.rkt")
 
 (provide engage?)
 
 (define (engage?)
-  (define result (savingthrow fucks))
+  (define result (skillcheck fucks))
     (if (not result) "Engage" "Ignore"))
 
 (printf "~a~n" (engage?))

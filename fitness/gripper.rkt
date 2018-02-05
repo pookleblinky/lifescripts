@@ -1,7 +1,7 @@
 #lang racket
 
 (require "../machinery/rng.rkt"
-         "../machinery/savingthrow.rkt"
+         "../machinery/skillcheck.rkt"
          "../stats.rkt")
 
 (provide crush)
@@ -11,7 +11,7 @@
 ;pullups, swings, gripper, band pull aparts, etc.
 
 (define (gripper?)
-  (define result (savingthrow laziness))
+  (define result (skillcheck laziness))
   (if (equal? #t result) #t #f))
 
 (define (reps)

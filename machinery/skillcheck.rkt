@@ -9,9 +9,9 @@
 ;; Given an attribute or skill, roll a d100. If the result is lower, success.
 ;; But, I started off backwards and upside down. 
 
-(provide savingthrow)
+(provide skillcheck)
 
-(define (savingthrow numbertobeat)
+(define (skillcheck numbertobeat)
   (define result (rolld100))
   (< result numbertobeat))
 
