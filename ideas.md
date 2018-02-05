@@ -23,4 +23,4 @@ permission to focus and not feel obligated to be torn apart by competing streams
 of dystopia.
 
 Idea: extract thirst/fuckslevel etc into a literal statsheet that those scripts
-look at. Change em all in one spot.
+look at. Change em all in one spot. Done. Later I'll have to alter savingthrow.
