@@ -5,6 +5,7 @@ Top level:
 - codescript.rkt Determine coding session
 - music.rkt Randomly decide the day's music genre
 - todayscript.rkt Determine coinfast and kettlebell
+- stats.rkt A literal statsheet using Call of Cthulhu attributes
 
 Social
 - attention.rkt Randomly choose one issue/event to focus on
