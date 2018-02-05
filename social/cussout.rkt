@@ -4,10 +4,10 @@
 
 (provide cussout?)
 
-(define cusses 12)
+(define profanity 12)
 
 (define (cussout?)
-  (define result (savingthrow cusses))
+  (define result (savingthrow profanity))
   (if (not result) "Cuss em out" "Be civil"))
 
 (printf "~a~n" (cussout?))
