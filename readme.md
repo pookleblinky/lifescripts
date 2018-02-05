@@ -25,4 +25,10 @@ What I've been doing is recording the day's results of the coinflip and dice rol
 pinned Keep note. Note to self: check if Keep has an API that I can use to send
 stuff to from racket.
 
+I had originally envisioned simple decision scripts, some depending on the
+decisions of the last week. Drink some water? How many kettlebell swings should
+I do today? etc. For some reason I am now making an RPG. There's a statsheet and
+a skillsheet, and whether I refactor code is based on a sanity stat. I'm gonna
+go with the flow and see where it ends up.
+
 Check out index.md to see what I'm already working on.
