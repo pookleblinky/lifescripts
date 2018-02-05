@@ -3,6 +3,7 @@
 (provide coinflip
          rolld6 
          roll2d6 
+         roll3d6
          rolld20 
          rolld100 
          randomchoice)
@@ -15,6 +16,9 @@
 
 (define (roll2d6)
   (random 1 13))
+
+(define (roll3d6)
+  (random 1 19))
 
 (define (rolld20)
   (random 1 21))
