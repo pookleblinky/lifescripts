@@ -49,4 +49,4 @@
 (define smarts (+ intelligence education))
 (define fucks (ceiling (/ sanity smarts)))
 (define profanity (* 2 education))
-(define thirst (/ constitution 2))
+(define thirst hitpoints)
