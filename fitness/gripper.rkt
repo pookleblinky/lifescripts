@@ -12,7 +12,7 @@
 
 (define (gripper?)
   (define result (skillcheck laziness))
-  (if (equal? #t result) #t #f))
+  result)
 
 (define (reps)
   (roll2d6))
