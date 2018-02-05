@@ -1,8 +1,8 @@
 #lang racket
 
 ;; Existing stats
-(define fucks 4)
-(define profanity 12)
+; fucks 4
+; profanity 12
 
 ;; Cardinal stats (CoC)
 
@@ -23,4 +23,9 @@
 (define hitpoints (ceiling (/ (+ size constitution) 2)))
 (define sanity (* 5 power))
 
-;; Reverse engineering fucks and profanity
+;; Reverse engineering fucks and profanity as secondary attributes
+;; It just has to sound somewhat plausible, and be close to current value
+
+(define smarts (+ intelligence education))
+(define fucks (ceiling (/ sanity smarts)))
+(define profanity (* 2 education))
