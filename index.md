@@ -10,7 +10,6 @@ Top level:
 
 Social
 - attention.rkt Randomly choose one issue/event to focus on
-- cussout.rkt Respond with cusses, or be civil?
 - engagetroll.rkt Engage with a troll, or ignore/mute?
 
 Fitness
