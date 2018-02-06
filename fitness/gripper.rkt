@@ -10,13 +10,14 @@
 ;; Actually, why not generalize this. A script to assign N reps in M activities:
 ;pullups, swings, gripper, band pull aparts, etc.
 
+(define gripper? (skillcheck laziness))
+
 (define (reps)
   (roll2d6))
 
 (define (crush)
-  (define (gripper?)
-    (define result (skillcheck laziness))
-    result)
-  (if (equal? #t (gripper?)) 
-  (printf "Do ~a reps~n" (reps))
-  (printf "Relax~n")))
+  (if (equal? #t gripper?)
+    (printf "Do ~a reps~n" (reps))
+    (printf "Relax~n")))
+
+(crush)
