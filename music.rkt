@@ -19,6 +19,7 @@
     'chaos
     'chicagoblues
     'classical
+    'darkcabaret
     'deltablues
     'dubstep
     'femalejazzvocals
