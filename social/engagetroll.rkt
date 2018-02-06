@@ -1,21 +1,21 @@
 #lang racket
 
-;; Roll a saving throw to determine whether to respond to an argument.
+;; Roll a saving throw to determine whether to respond to an argument, and how.
 
 (require "../machinery/skillcheck.rkt"
          "../stats.rkt")
 
 (provide engage cussout)
 
-(define parry (skillcheck fucks))
+(define parry? (skillcheck fucks))
 
-(define cuss (skillcheck profanity))
+(define cuss? (skillcheck profanity))
 
 (define (engage)
-  (if (equal? #t parry) "Engage" "Ignore"))
+  (if (equal? #t parry?) "Engage" "Ignore"))
 
 (define (cussout)
-  (if (equal? #t (and parry cuss))
+  (if (equal? #t (and parry? cuss?))
     "Cuss em out" "Ignore/mute"))
 
 (cussout)
