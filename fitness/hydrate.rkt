@@ -3,10 +3,13 @@
 (require "../machinery/skillcheck.rkt"
          "../stats.rkt")
 
-(provide drink?)
+(provide hydrate)
 
-(define (drink?)
-  (define result (skillcheck thirst))
-  (if (equal? #t result)
-    (printf "Guzzle a cupful.~n")
-    (printf "You're good.~n")))
+(define drink? (skillcheck thirst))
+
+(define (hydrate)
+  (if (equal? #t drink?)
+    "Guzzle a cupful"
+    "You're good"))
+
+(hydrate)
