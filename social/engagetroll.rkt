@@ -7,7 +7,7 @@
 
 (provide engage?)
 
-(define (engage?)
-  (define result (skillcheck fucks))
-  (define output (if (equal? #t result) "Engage" "Ignore"))
-  (printf "~a~n" output))
+(define parry (skillcheck fucks))
+
+(define (engage)
+  (if (equal? #t parry) "Engage" "Ignore"))
