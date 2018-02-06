@@ -37,6 +37,7 @@
     'paganini
     'poetry
     'sufi
+    'surf
     'theloniousmonk
     'tomwaits
     'vocals
