@@ -5,9 +5,17 @@
 (require "../machinery/skillcheck.rkt"
          "../stats.rkt")
 
-(provide engage?)
+(provide engage cussout)
 
 (define parry (skillcheck fucks))
 
+(define cuss (skillcheck profanity))
+
 (define (engage)
   (if (equal? #t parry) "Engage" "Ignore"))
+
+(define (cussout)
+  (if (equal? #t (and parry cuss))
+    "Cuss em out" "Ignore/mute"))
+
+(cussout)
