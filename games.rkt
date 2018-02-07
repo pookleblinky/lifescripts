@@ -13,7 +13,8 @@
     'angband
     'brogue
     'moria
-    'nethack))
+    'nethack
+    'ToME))
 
 (define (playthis)
   (define game (randomchoice games))
