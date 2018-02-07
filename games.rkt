@@ -9,10 +9,11 @@
 
 (define games
   (list
-    'nethack
+    'DCSS
     'angband
+    'brogue
     'moria
-    'brogue))
+    'nethack))
 
 (define (playthis)
   (define game (randomchoice games))
