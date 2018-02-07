@@ -3,10 +3,11 @@ So far:
 Top level:
 - bored.rkt Randomly assign something to do
 - codescript.rkt Determine coding session
+- games.rkt Randomly decide what game to play
 - music.rkt Randomly decide the day's music genre
-- todayscript.rkt Determine coinfast and kettlebell
-- stats.rkt A literal statsheet using Call of Cthulhu attributes
 - skills.rkt A literal goddamn skill sheet.
+- stats.rkt A literal statsheet using Call of Cthulhu attributes
+- todayscript.rkt Determine coinfast and kettlebell
 
 Social
 - attention.rkt Randomly choose one issue/event to focus on
