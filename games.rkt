@@ -12,6 +12,7 @@
     'DCSS
     'angband
     'brogue
+    'dwarf-fortress
     'moria
     'nethack
     'ToME))
