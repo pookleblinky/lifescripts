@@ -2,7 +2,8 @@
 
 ;; The various scripts all end up invoked here.
 
-(require "fitness/coinfast.rkt"
+(require "dfgraphics.rkt" 
+         "fitness/coinfast.rkt"
          "fitness/dicebell.rkt"
          "social/attention.rkt"
          "music.rkt")
@@ -11,3 +12,4 @@
 (doswings)
 (listen)
 (boost-topic)
+(choose-graphic)
