@@ -2,11 +2,14 @@ So far:
 
 Top level:
 - bored.rkt Randomly assign something to do
+- cleaning.rkt Randomly decide which cleaning task to do next
 - codescript.rkt Determine coding session
+- dfgraphics.rkt Decide which graphics to use on Dwarf Fortress
 - games.rkt Randomly decide what game to play
 - music.rkt Randomly decide the day's music genre
 - skills.rkt A literal goddamn skill sheet.
 - stats.rkt A literal statsheet using Call of Cthulhu attributes
+- status todayscript > status
 - todayscript.rkt Determine coinfast and kettlebell
 
 Social
