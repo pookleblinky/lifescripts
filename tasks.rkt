@@ -27,7 +27,6 @@
                             "Clean off desk"
                             "Fill water bottles"
                             "Put away rice jars"
-                            "Plop dwarf therapist appimage in turtle tarballs"
                             "Rebuild vape coil"
                             "Sweep bedroom floor"
                             "Set terminator color profiles to be nicer w/ vim"))
@@ -37,5 +36,4 @@
 (define day-tasks (list "Laundry"
                         "Clean litter boxes"
                         "Sweep & mop kitchen"))
-
 
