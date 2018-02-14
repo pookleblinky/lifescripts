@@ -20,7 +20,7 @@
   (define task (randomchoice tasks-list))
   (printf "Unfuck this thing: ~a~n" task))
 
-;; Tasks from "clean this cup" to "move that couch"
+;; Quick tasks, <5 minutes or so.
 (define instant-tasks (list "Clean off coffee table" 
                             "Clean off desk"
                             "Fill water bottles"
@@ -30,11 +30,10 @@
                             "Sweep bedroom floor"
                             "Set terminator color profiles to be nicer w/ vim"))
 
-;; This gets collated into todayscript
-(define day-tasks (list 'stuff))
+;; This gets collated into todayscript. Bigger tasks, that need to get done a
+;; few times a week.
+(define day-tasks (list "Laundry"
+                        "Clean litter boxes"
+                        "Sweep & mop kitchen"))
 
-;; These can all wait
-(define short-tasks (list 'foo 'bar 'baz))
-(define medium-tasks (list 'quux 'gibble))
-(define big-tasks (list 'ugh 'ew 'argh))
 
