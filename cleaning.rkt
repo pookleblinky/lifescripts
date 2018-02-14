@@ -7,21 +7,30 @@
 ;; effortful. Rinse and repeat.
 ;; Spoon-conserving, flexible, outsources executive functioning.
 
+;; For now, just randomly spit out a task with no concern for tracking or
+;; anything. Not even an argv or nice way to add tasks.
+
 (require "machinery/rng.rkt"
          "machinery/skillcheck.rkt"
          "stats.rkt")
 
 (provide cleanthis)
 
+(define (cleanthis tasks-list)
+  (define task (randomchoice tasks-list))
+  (printf "Unfuck this thing: ~a~n" task))
 
 ;; Tasks from "clean this cup" to "move that couch"
-(define instant-tasks (list 'zip 'zap))
+(define instant-tasks (list "Clean off coffee table" 
+                            "Clean off desk"
+                            "Fill water bottles"
+                            "Put away rice jars"
+                            "Plop dwarf therapist appimage in turtle tarballs"
+                            "Rebuild vape coil"))
+
+;; These can all wait
 (define short-tasks (list 'foo 'bar 'baz))
 (define medium-tasks (list 'quux 'gibble))
 (define big-tasks (list 'ugh 'ew 'argh))
-
-(define (cleanthis tasks-list)
-  (define task (randomchoice tasks-list))
-  (printf "Do: ~a~n" task))
 
 (cleanthis instant-tasks)
