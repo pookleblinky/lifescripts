@@ -14,7 +14,7 @@
          "machinery/skillcheck.rkt"
          "stats.rkt")
 
-(provide cleanthis)
+(provide cleanthis day-tasks)
 
 (define (cleanthis tasks-list)
   (define task (randomchoice tasks-list))
@@ -30,9 +30,11 @@
                             "Sweep bedroom floor"
                             "Set terminator color profiles to be nicer w/ vim"))
 
+;; This gets collated into todayscript
+(define day-tasks (list 'stuff))
+
 ;; These can all wait
 (define short-tasks (list 'foo 'bar 'baz))
 (define medium-tasks (list 'quux 'gibble))
 (define big-tasks (list 'ugh 'ew 'argh))
 
-(cleanthis instant-tasks)
