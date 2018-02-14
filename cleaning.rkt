@@ -26,7 +26,9 @@
                             "Fill water bottles"
                             "Put away rice jars"
                             "Plop dwarf therapist appimage in turtle tarballs"
-                            "Rebuild vape coil"))
+                            "Rebuild vape coil"
+                            "Sweep bedroom floor"
+                            "Set terminator color profiles to be nicer w/ vim"))
 
 ;; These can all wait
 (define short-tasks (list 'foo 'bar 'baz))
