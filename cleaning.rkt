@@ -13,3 +13,15 @@
 
 (provide cleanthis)
 
+
+;; Tasks from "clean this cup" to "move that couch"
+(define instant-tasks (list 'zip 'zap))
+(define short-tasks (list 'foo 'bar 'baz))
+(define medium-tasks (list 'quux 'gibble))
+(define big-tasks (list 'ugh 'ew 'argh))
+
+(define (cleanthis tasks-list)
+  (define task (randomchoice tasks-list))
+  (printf "Do: ~a~n" task))
+
+(cleanthis instant-tasks)
