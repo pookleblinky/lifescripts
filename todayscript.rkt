@@ -7,11 +7,11 @@
          "fitness/dicebell.rkt"
          "social/attention.rkt"
          "music.rkt"
-         "cleaning.rkt")
+         "tasks.rkt")
 
 (feast?)
 (doswings)
 (listen)
 (boost-topic)
 (choose-graphic)
-(cleanthis day-tasks)
+(dotask day-tasks)
