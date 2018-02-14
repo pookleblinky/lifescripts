@@ -26,3 +26,7 @@ Coding
 - refactor.rkt Roll dice to decide whether to refactor
 -
 -
+
+Tasklists
+- day-tasks.rkt List of bigger, harder tasks
+- instant-tasks.rkt List of small, easy tasks

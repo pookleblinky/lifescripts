@@ -12,28 +12,16 @@
 ;; For now, just randomly spit out a task with no concern for tracking or
 ;; anything. Not even an argv or nice way to add tasks.
 
+;; Reads task lists from instant-tasks and day-tasks files.
+
 (require "machinery/rng.rkt"
          "machinery/skillcheck.rkt"
-         "stats.rkt")
+         "stats.rkt"
+         "tasklists/day-tasks.rkt" 
+         "tasklists/instant-tasks.rkt") 
 
 (provide dotask instant-tasks day-tasks)
 
 (define (dotask tasks-list)
   (define task (randomchoice tasks-list))
   (printf "Unfuck this thing: ~a~n" task))
-
-;; Quick tasks, <5 minutes or so.
-(define instant-tasks (list "Clean off coffee table" 
-                            "Clean off desk"
-                            "Fill water bottles"
-                            "Put away rice jars"
-                            "Rebuild vape coil"
-                            "Sweep bedroom floor"
-                            "Set terminator color profiles to be nicer w/ vim"))
-
-;; This gets collated into todayscript. Bigger tasks, that need to get done a
-;; few times a week.
-(define day-tasks (list "Laundry"
-                        "Clean litter boxes"
-                        "Sweep & mop kitchen"))
-
