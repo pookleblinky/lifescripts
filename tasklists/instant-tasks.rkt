@@ -9,7 +9,6 @@
 (define instant-tasks (list
                         "clean off coffee table"
                         "clean off desk"
-                        "put away rice jars"
                         "rebuild vape coil"
-                        "sweep bedroom floor"
+                        "organize underneath coffee table"
                         "pretty up terminator color profiles for vim"))
