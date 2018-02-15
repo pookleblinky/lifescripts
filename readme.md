@@ -32,3 +32,7 @@ a skillsheet, and whether I refactor code is based on a sanity stat. I'm gonna
 go with the flow and see where it ends up.
 
 Check out index.md to see what I'm already working on.
+
+Note: I do not believe in adding UI. I prefer building my own UI on the fly, and
+view even the existence of UI as too opinionated for my tastes. Do not expect
+user friendliness.
