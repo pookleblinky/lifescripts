@@ -4,6 +4,7 @@ Top level:
 - bored.rkt Randomly assign something to do
 - codescript.rkt Determine coding session
 - dfgraphics.rkt Decide which graphics to use on Dwarf Fortress
+- flipism.md About flipism
 - games.rkt Randomly decide what game to play
 - music.rkt Randomly decide the day's music genre
 - skills.rkt A literal goddamn skill sheet.
