@@ -16,12 +16,19 @@
 
 (require "machinery/rng.rkt"
          "machinery/skillcheck.rkt"
-         "stats.rkt"
-         "tasklists/day-tasks.rkt" 
-         "tasklists/instant-tasks.rkt") 
+         "stats.rkt")
 
 (provide dotask instant-tasks day-tasks)
 
-(define (dotask tasks-list)
-  (define task (randomchoice tasks-list))
-  (printf "Unfuck this thing: ~a~n" task))
+;; Task files
+(define instant-tasks-file "tasklists/instant-tasks.txt")
+(define day-tasks-file "tasklists/day-tasks.txt")
+
+;; Slurp lines into list
+(define instant-tasks (file->lines instant-tasks-file))
+(define day-tasks (file->lines day-tasks-file))
+
+;; Spit out a random task
+(define (dotask taskslist)
+(define task (randomchoice taskslist))
+(printf "Unfuck this thing now: ~a~n" task))
