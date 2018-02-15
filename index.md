@@ -28,5 +28,5 @@ Coding
 -
 
 Tasklists
-- day-tasks.rkt List of bigger, harder tasks
-- instant-tasks.rkt List of small, easy tasks
+- day-tasks.txt List of bigger, harder tasks
+- instant-tasks.txt List of small, easy tasks
