@@ -26,3 +26,11 @@ Idea: extract thirst/fuckslevel etc into a literal statsheet that those scripts
 look at. Change em all in one spot. Done. Later I'll have to alter savingthrow.
 
 cleaning.rkt: Should it be a general tasks script, or specifically for cleaning?
+
+Idea: a CW/TW quarantine. Populate triggers.txt, and it'll process it into
+various forms ready to be plopped into browser extensions and such. Pipe it to a
+function that'll produce json, and connect it to rotten tomatoes and netflix to
+produce a script that'll add warnings on mouse-over for movies. Connect it to
+goodreads, and add nice warnings next to titles, etc. 
+
+Should add a file for UI (or lack thereof).
