@@ -1,6 +1,6 @@
 #lang racket
 
-;; The various scripts all end up invoked here.
+;; The various scripts can all end up invoked here.
 
 (require "dfgraphics.rkt" 
          "fitness/coinfast.rkt"
