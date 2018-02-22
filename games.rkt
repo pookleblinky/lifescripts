@@ -13,6 +13,11 @@
     'angband
     'brogue
     'dwarf-fortress
+    'cataclysm
+    'quake
+    'amnesia
+    'halflife2
+    'l4d2
     'moria
     'nethack
     'ToME))
