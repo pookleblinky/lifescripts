@@ -10,17 +10,17 @@
 (define games
   (list
     'DCSS
+    'ToME
+    'amnesia
     'angband
     'brogue
-    'dwarf-fortress
     'cataclysm
-    'quake
-    'amnesia
+    'dwarf-fortress
     'halflife2
     'l4d2
     'moria
     'nethack
-    'ToME))
+    'quake))
 
 (define (playthis)
   (define game (randomchoice games))
