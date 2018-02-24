@@ -9,13 +9,8 @@
 
 (define games
   (list
-    'DCSS
-    'amnesia
     'cataclysm
-    'dwarf-fortress
-    'halflife2
-    'l4d2
-    'quake))
+    'dwarf-fortress)) 
 
 (define (playthis)
   (define game (randomchoice games))
