@@ -1,7 +1,6 @@
-fill water bottles
-hang shirts
-Organize clothes
-build vape coil
-look up DF stories to bookmark
-Update desktop
 Organize cables
+get keyboard/mouse for rpi
+get more ssd/hdd storage for rpi
+get power strip
+Backup chroot coding labeled as stable
+backup rpi sdcard labeled as stable
