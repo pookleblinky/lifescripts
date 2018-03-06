@@ -10,6 +10,7 @@
 (define games
   (list
     'cataclysm
+    'dcss
     'dwarf-fortress)) 
 
 (define (playthis)
