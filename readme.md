@@ -36,3 +36,7 @@ Check out index.md to see what I'm already working on.
 Note: I do not believe in adding UI. I prefer building my own UI on the fly, and
 view even the existence of UI as too opinionated for my tastes. Do not expect
 user friendliness.
+
+This work is licensed under a [Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International
+License](http://creativecommons.org/licenses/by-nc-sa/4.0)
