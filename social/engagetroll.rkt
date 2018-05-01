@@ -7,9 +7,9 @@
 
 (provide engage cussout)
 
-(define parry? (skillcheck fucks))
+(define parry? (skillcheck hubris))
 
-(define cuss? (skillcheck profanity))
+(define cuss? (skillcheck impatience))
 
 (define (engage)
   (if (equal? #t parry?) "Engage" "Ignore"))
