@@ -13,7 +13,9 @@ dose, averages to 245 minutes, maximum 350 minutes. 450 minutes is the maximum
 suggested dose of cardio beyond which diminishing returns kick in
 (https://well.blogs.nytimes.com/2015/04/15/the-right-dose-of-exercise-for-a-longer-life/).
 
-Dice Kettlebell: What I had been doing was: roll 2d6, multiply by a number. Do that many swings. I decided to simplify this a bit by just increasing the multiplier and rolling one die. 
+Dice Kettlebell: What I had been doing was: roll 2d6, multiply by a number. Do
+that many swings. I decided to simplify this a bit by just increasing the
+multiplier and rolling one die. 
 
 Basically: I am enjoying the hell out of adding all this randomness to my life.
 I want to add more, hence this project.
@@ -27,9 +29,8 @@ stuff to from racket.
 
 I had originally envisioned simple decision scripts, some depending on the
 decisions of the last week. Drink some water? How many kettlebell swings should
-I do today? etc. For some reason I am now making an RPG. There's a statsheet and
-a skillsheet, and whether I refactor code is based on a sanity stat. I'm gonna
-go with the flow and see where it ends up.
+I do today? etc. For some reason I am now making an RPG. There's a statsheet.
+I'm gonna go with the flow and see where it ends up.
 
 Check out index.md to see what I'm already working on.
 
