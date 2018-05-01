@@ -13,7 +13,7 @@
 
 (define (dotask)
   (define (refactor?)
-    (define result (skillcheck sanity))
+    (define result (skillcheck hubris))
     result)
   (if (equal? #t (refactor?))
     (printf "Clean up some code~n")
