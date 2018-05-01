@@ -5,7 +5,7 @@
 
 (provide hydrate)
 
-(define drink? (skillcheck thirst))
+(define drink? (skillcheck laziness))
 
 (define (hydrate)
   (if (equal? #t drink?)
