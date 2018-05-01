@@ -15,3 +15,4 @@
   (define result (rolld100))
   (< result numbertobeat))
 
+; TODO: switch to 2d6+modifier for bell curve and gradations
