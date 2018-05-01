@@ -1,0 +1,4 @@
+streamline stats down to 4
+integrate barbell scheduling to dicebell
+let tasks dump into buckets
+switch dice to 2d6 with gradations
