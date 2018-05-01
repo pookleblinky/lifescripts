@@ -7,3 +7,14 @@
 ;; This'd give more range of gradations, and room for using a stat to adjust the
 ;; frequency in a single spot (say, start with -1 and over time increase it to
 ;; +1). 
+
+(require "../machinery/rng.rkt")
+
+(provide fast?)
+
+(define threshold 6)
+
+(define (fast?)
+  (if (<= (roll2d6) threshold)
+    (printf "Fast") 
+    (printf "Eat")))
